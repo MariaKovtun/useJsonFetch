@@ -6,9 +6,9 @@ import TestComponent from './components/TestComponent'
 function App() {
   return (
     <>
-    <TestComponent url={"http://localhost:7070/loading"}/>
+     <TestComponent url={"http://localhost:7070/data"}/>
     <TestComponent url={"http://localhost:7070/error"}/>
-    <TestComponent url={"http://localhost:7070/data"}/>
+    <TestComponent url={"http://localhost:7070/loading"}/>
     </>
   )
 }
